@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server todos",
+  "main": "./build/server.js",
+  "scripts": {
+    "start": "nodemon ./src/server.ts",
+    "dev": "tsc && nodemon ./build/server.js",
+    "prod": "tsc && nodemon ./build/server.js"
+  },
+  "author": "kabirsingh",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.14",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
